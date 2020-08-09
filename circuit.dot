@@ -1,0 +1,9 @@
+digraph {
+	n0; n1; n2; n3; n4
+n0 -> n1 [label="V"]
+n0 -> n2 [label="R",dir=none]
+n2 -> n1 [label="R",dir=none]
+n2 -> n3 [label="R",dir=none]
+n3 -> n4 [label="R",dir=none]
+n4 -> n1 [label="R",dir=none]
+}
